@@ -1,0 +1,13 @@
+{
+  "name": "tj-view-alert-cloud-worker",
+  "version": "1.0.0",
+  "description": "24/7 Cloud Alert Watcher for TJ VIEW with TradingView WebSocket and Telegram Push",
+  "main": "watcher.js",
+  "type": "module",
+  "scripts": {
+    "start": "node watcher.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
